@@ -1,0 +1,23 @@
+{
+  "name": "coe-notifier",
+  "version": "1.0.0",
+  "description": "Polls Anna University COE notice board and sends FCM notifications for new entries.",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js",
+    "backfill": "node src/backfill.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.7.7",
+    "cheerio": "^1.0.0",
+    "dayjs": "^1.11.13",
+    "dotenv": "^16.4.5",
+    "firebase-admin": "^12.6.0",
+    "mongoose": "^8.7.0",
+    "node-cron": "^3.0.3"
+  }
+}
